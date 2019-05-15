@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>ToDAG</title>
+    <script src="jquery-3.3.1.min.js"></script>
+    <script src="exp3.js"></script>
+</head>
+<body>
+<div style="text-align: center;">
+    <h1>Algorithm exp3</h1>
+    <canvas id="canvas" width="600" height="600" style="border: 3px solid rgb(170, 170, 170);" ></canvas>
+    <div style="text-align: left; margin-left: 34%;">
+        <h2>操作说明</h2>
+        <ul>
+            <li md-pos="167-188"><code md-pos="170-180">shift + 左键</code> 创建节点。</li>
+            <li md-pos="188-243">点击<code md-pos="193-195">L键</code>，开始创建边，创建边的方式是从一个节点点击拖动到另一个点。(鲁棒性很差，注意一定在节点点击)</li>
+            <li md-pos="243-266">点击<code md-pos="248-250">D键</code>，会使用局部替换法求解最小生成树</li>
+        </ul>
+    </div>
+</div>
+</body>
+</html>
